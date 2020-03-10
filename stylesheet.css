@@ -1,0 +1,943 @@
+
+body{
+  margin:0;
+  color:#333;
+}
+
+
+}
+.text{
+  font-size:28px;
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+.textm{
+  font-size:20px;
+  font-weight:600;
+  margin-bottom:10px;
+
+}
+/*p要素は元々block要素なのでinline-blockにしてあげる*/
+h4,h3,h2,p,h1,h5,h6 {
+  margin:0;
+  text-align:center;
+  letter-spacing: 2px;
+}
+
+header img{
+  vertical-align: bottom;
+  margin-left:40px;
+}
+.white{
+  background-color:#ffffff;
+}
+
+
+.header-in{
+  width:100%;
+  position:fixed;
+  top:0;
+  background-color:#ffffff;
+  padding: 15px 50px;
+    z-index:100;
+
+}
+.header-in h4{
+  display: inline-block;
+  font-size:14px;
+}
+
+.divider{
+  height:1000px;
+  background-color:royalblue;
+
+}
+
+.btn{
+  width:318px;
+  height:42px;
+  border:1px solid #D86C67;
+  background-color:#D86C67;
+  border-radius:25px;
+  text-align:center;
+  display:inline-block;
+  float:right;
+  margin-right:150px;
+}
+.btn a{
+  text-decoration:none; /*ここは？*/
+  color:#ffffff;
+  font-size:14px;
+  display:block;
+  height:100%;
+  padding-top:10px;
+  letter-spacing:1px;
+}
+
+.btn:hover{
+  background-color:#d84940;
+}
+
+.isaratopgazou{
+  background-image: url(img/main.jpg);
+  background-size:cover;
+  height:575px;
+  text-align:center;
+background-position:center;
+
+}
+
+.isaratopgazou h1{
+  padding-top:170px;
+  line-height:50px; /*line-heightとは*/
+  font-size:30px;
+  padding-bottom:10px;
+}
+
+.isaratopgazou p{
+  font-weight:600;
+  margin-top:30px;
+  font-size:20px;
+
+}
+
+.form{
+  background-color:#EBB94C;
+  height:585px;
+  color:#ffffff;
+    text-align:center;
+
+
+}
+
+
+.form ,h2{
+  padding-top:30px;
+font-size:21px;
+}
+
+.spann3{
+
+  font-size:20px;
+  font-weight:600;
+  color:#C7254E;
+  background-color:#F9F2F4;
+  font-family:'Menlo','Monaco','consolas','Courier New', monospace;
+  border-radius:3px;
+  width:420px;
+  margin: 0 auto;
+}
+
+.btn2{
+  width:50%;
+  height:104px;
+  border:1px solid #D86C67;
+  background-color:#D86C67;
+  border-radius:50px;
+  text-align:center;
+  margin: 0 auto;/*これで中央揃いになる*/
+  margin-top:50px;
+  margin-bottom:50px;
+
+
+}
+.btn2 a{
+  text-decoration:none; /*ここは？*/
+  color:#ffffff;
+  font-size:28px;
+  display:block;
+  height:100%;
+  font-weight:800;
+  font-family:"Hiragino Kaku Gothic Pro","Meiryo, Osaka","MS PGothic";
+  line-height:104px;/*文字の位置を変える*/
+}
+
+.btn2:hover{
+  background-color:#d84940;
+}
+
+.white{
+    background-image: url(img/introbottom.jpg);
+    height:575px;
+    background-size:cover;
+    text-align:center;
+    background-position:center;/*これは何？*/
+}
+
+.white h2{
+  font-weight:600;
+  font-size:28px;
+  padding-top:85px;
+  padding-bottom:75px;
+}
+
+.white p{
+  font-size:20px;
+  line-height:32px;
+  padding-bottom:30px;
+}
+.maru {
+  width:80px;
+  height:80px;
+
+  background-color:#EBB94C;
+  border-radius:50px;
+  text-align:center;
+  margin: 0 auto;/*これで中央揃いになる*/
+  margin-top:20px;
+  z-index:10;
+  position:relative;
+}
+
+.maru p{
+  text-decoration:none; /*ここは？*/
+  color:#ffffff;
+  font-size:14px;
+  display:block;
+  height:100%;
+  font-weight:400;
+  font-family:"Hiragino Kaku Gothic Pro","Meiryo, Osaka","MS PGothic",;
+  line-height:80px;/*文字の位置を変える*/
+  padding-bottom:12px;
+  letter-spacing:3px;
+
+}
+
+
+.kabe{
+  height:650px;
+  background-color:#FEF5E0;
+  z-index:5;
+}
+
+
+.isa1{
+  padding-top:120px;
+  weight:600;
+  text-align:center;
+  font-size:28px;
+  letter-spacing:2px;
+}
+
+
+.kabe h3{
+  padding-top:40px;
+  font-size:20px;
+  line-height:32px;
+  text-align:center;
+  letter-spacing:2px;
+}
+
+.whitecolor{
+  height:250px;
+  width:1170px;
+  background-color:#ffffff;
+  margin: 40px 175px 40px 175px;
+  margin-left:auto;
+  margin-right:auto;
+  border:3px solid #EBB94D;
+  text-align:center;
+  border-radius:5px;
+
+
+}
+
+.flex{
+display:flex;
+justify-content:center;
+
+}
+
+.img1{
+  padding-top:20px;
+  width:13%;
+  font-size:12px;
+    letter-spacing:2px;
+    line-height:22px;
+
+}
+.computercover{
+background-image: url(img/aboutsecondbg.jpg);
+height:440px;
+background-size:cover;
+position:relative;
+background-position:center;/*これは何？*/
+}
+
+.computercover h2{
+  font-size:28px;
+  color:#ffffff;
+  line-height:40px;
+  Weight:600;
+  padding-bottom:30px;
+}
+
+.computercover p{
+  color:#ffffff;
+  font-size:20px;
+  line-height:32px;
+  font-Weight:600;
+
+}
+.span{
+font-size:20px;
+font-weight:600;
+color:#EBB94D;
+
+
+}
+
+.whitecolor2{
+  height:180px;
+  width:375px;
+  background-color:#ffffff;
+  margin:35px 175px 40px 175px;
+  margin-left:10px;
+  margin-right:10px;
+  border:3px solid #ffffff;
+  border-radius:5px;
+}
+
+.computercover h3{
+  background-color:#EBB94D;
+  color:#ffffff;
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-left:30px;
+  width:310px;
+  height:25px;
+  font-size: 16px;
+  border-radius:5px;
+}
+.blue{
+  background-color:#016EA9;
+  color:#ffffff;
+  font-size:20px;
+  line-height:32px;
+  font-Weight:600;
+  height:100px;
+  padding-top:40px;
+}
+
+.isarade{
+  height:505px;
+  background-color:#ffffff;
+}
+
+.isarade h2{
+  font-size:28px;
+  margin-top:30px;
+  margin-bottom:50px;
+}
+
+.isarade span{
+font-size:16px;
+}
+.img2{
+  padding-top:40px;
+  float:left;
+  margin:25px 25px 25px 25px;
+  }
+  .isarade p{
+    font-size:20px;
+    line-height:33px;
+  }
+
+.isarade h3{
+  font-size:16px;
+
+}
+
+.oudouiro{
+  background-color:#FEF5E0;
+  height:1025px;
+}
+
+.oudouiro p{
+line-height:1px;
+  font-size:28px;
+}
+
+
+.h2h3{
+  font-size:20px;
+font-size:20px;
+padding-top:60px;
+}
+
+.flex3{
+
+padding-top:60px;
+padding-right:20px;
+padding-left:20px;
+  justify-content:center;
+  display:flex;
+
+}
+.oudouiro h3{
+  font-size:20px;
+  font-weight:700;
+  color:#EBB94D;
+  text-align:left;
+}
+.size1{
+  width:360;
+  height:400;
+  padding-left:100px;
+  padding-right:0px;
+  text-align:left;
+}
+
+.size2{
+  width:360;
+  height:400;
+
+}
+
+.size3{
+  width:360;
+  height:400;
+  padding-left:0px;
+  padding-right:80px;
+
+}
+
+.oudouiro p.pp{
+  padding-top:10px;
+  font-size:16px;
+  width:360px;
+  height:170px;
+  font-weight:300;
+  text-align:left;
+  line-height:26px;
+}
+.whitecolor3{
+  height:265px;
+  width:1170px;
+  background-color:#ffffff;
+  margin: 40px 175px 40px 175px;
+  margin-left:auto;
+  margin-right:auto;
+  border:3px solid #EBB94D;
+  text-align:center;
+  border-radius:5px;
+}
+.whitecolor3 h2.hh{
+  font-size:28px;
+  line-height:45px;
+  color:#ebb94d;
+  font-weight:600;
+}
+.whitecolor3 p.gg{
+  font-size:20px;
+  font-weight:600;
+  line-height:32px;
+  padding-top:10px;
+}
+
+.whitecolor3 p.aa{
+  font-size:16px;
+  font-weight:600;
+  line-height:26px;
+    padding-top:10px;
+}
+
+ p.bb{
+  font-size:14px;
+  font-weight:300;
+  line-height:22px;
+    padding-top:10px;
+}
+
+.member{
+  background-image: url(img/teacherbg.jpg);
+  position:relative;
+  background-size:cover;
+  height:1450px;
+  width:100%;
+}
+
+.member_whitebox{
+  width:380px;
+  height:390px;
+  border:3px solid #fff;
+
+  margin: 0 auto;/*中央ぞろえにする*/
+  position:relative;
+  margin-top:200px;
+
+
+}
+
+.member_image{
+width:25%;
+  background-color:yellow;
+  border-radius:50%;
+  width:200px;
+  height:200px;  /*in-line-blockにして位置をabsoluteにしとけば線の上に画像がいく*/
+display:inline-block;
+position:absolute; /*relativeにすると下の文字に余白が付いてしまう。*/
+  top:-170px;
+right:90px;
+
+
+
+}
+.member_wrapper{
+width:50%;
+margin: 0 auto;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.section_title_member{
+  padding-top:90px;
+  font-weight:600;
+  line-height:40px;
+  font-size:28px;
+  color:white;
+}
+
+.member-p{
+  padding-top:40px;
+  line-height:26px;
+  font-size:16px;
+  color:white;
+  font-weight:600;
+}
+
+.member-text1{
+  font-size:16px;
+  padding-top:45px;
+  color:white;
+
+}
+
+.member-text2{
+  font-size:16px;
+  padding-top:15px;
+  color:white;
+  line-height:26px;
+
+}
+
+.member-text3{
+  font-size:16px;
+  padding-top:15px;
+  color:white;
+  text-align:left;
+  padding-left:40px;
+}
+
+.orange{
+  background-color:#EBB94D;
+  height:270px;
+}
+.siromaru{
+position:relative;
+  background-color:white;
+  border-radius:50%;
+  width:80px;
+  height:80px;
+  margin:0 auto;
+  top:40px;
+
+}
+p.qa{
+  padding-top:30px;
+  color:#EBB94C;
+}
+h2.text{
+  font-size:28px;
+  font-weight:600;
+  margin-top:20px;
+  color:white;
+}
+
+.triangle3{
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #EBB94C;
+  margin:0 auto;
+}
+.white2{
+  height:1080px;
+padding-left:40px;
+}
+h2.textblack{
+  font-size:28px;
+  font-weight:600;
+  color:#333;
+}
+h3.textblack2{
+  padding-top:20px;
+  font-size:16px;
+  height:30px;
+  font-weight:600;
+  margin-bottom:30px;
+}
+p.textblack3{
+padding-bottom:30px;
+}
+.take.jpg{
+  border:1px solid #orange;
+}
+.grid1{
+  display:grid;
+  grid-template-rows: 246px 30px;
+grid-template-columns: 721px 650px;
+width:1024px;
+
+
+}
+.gazo1{
+    border: 3px solid orange;
+    margin-left:475px;
+
+}
+
+.gray1 {
+  font-weight:400;
+  color:#777777;
+  font-size:20px;
+  text-align:left;
+padding-left:30px;
+padding-top:20px;
+line-height:29px;
+}
+.gray2{
+  text-align:left;
+  font-style:oblique;
+  font-size:15px;
+  line-height:24px;
+  color:#777777;
+   text-decoration:underline solid #777777;
+   padding-top:10px;
+   padding-left:30px;
+}
+.learnisara{
+  background-image: url(img/classbg.jpg);
+  background-size:cover;
+  height:800px;
+  text-align:center;
+background-position:center;
+color:white;
+
+width:100%;
+}
+.learn1{
+font-size:28px;
+font-weight:600;
+margin-bottom:10px;
+color:#fff;
+}
+
+.learn2{
+  font-size:16px;
+  font-weight:600;
+  margin-bottom:10px;
+  color:#fff;
+}
+.study_contents_list{
+  width:60%;
+  margin: 0 auto;
+  display:flex;
+  justify-content:space-around;
+}
+
+.study_contents_box{
+width:47%;
+  border:2px solid #206FA9;
+  border-radius:5px;
+  background-color:#fff;
+align-self:flex-start;
+
+}
+
+.study_contents_box h3{
+  background-color:#206FA9;
+}
+
+.contents_title {
+  background-color:#206FA9;
+}
+
+.contents_title h3{
+  margin-top:0;
+  padding:20px;
+}
+
+.study_contents_box p{
+  color:#000000;
+  padding:0 15px;
+  line-height:3.2rem;
+  font-weight:600;
+  letter-spacing:2px;
+}
+.blue2{
+  background-color:#016EA9;
+  color:#ffffff;
+  font-size:20px;
+  line-height:32px;
+  font-Weight:600;
+  height:140px;
+  padding-top:20px;
+}
+.black1{
+  font-size:28px;
+  line-height:40px;
+  font-weight:600;
+  padding-top:65px;
+}
+.img3{
+text-align:center;
+padding-top:50px;
+padding-bottom:40px;
+}
+
+.graypart{
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px 35px;
+  background-color: #fef5e0;
+
+}
+
+.imgchanger{
+  grid-row: 1 / 4;
+   grid-column: 1 / 2;
+padding-right:50px;
+padding-left:50px;
+}
+
+.container{
+  display:grid;
+  grid-template-rows: 20px 50px;
+  grid-template-columns: 240px 1fr;
+  float:left;
+padding-top:20px;
+padding-bottom:40px;
+}
+
+h4.left1 {
+text-align:left;
+font-size:18px;
+}
+
+h4.left2{
+font-size:18px;
+text-align:left;
+padding-top:30px;
+
+}
+h4.left3 {
+text-align:left;
+font-size:18px;
+padding-top:30px;
+
+
+}
+p.moji{
+  font-weight:600;
+  font-size:18px;
+  line-height:29px;
+padding-top:20px;
+}
+p.moji2{
+text-align:left;
+    font-size:13px;
+  padding-top:30px;
+  line-height:19px;
+  padding-right:40px;
+}
+.load{
+  max-width: 100%;
+  text-align:center;
+}
+.load1{
+      vertical-align: middle;
+}
+
+.sentense{
+grid-row: 1 / 3;
+  grid-column: 2/ 3;
+}
+.imgplace{
+  padding-left:20px;
+
+}
+.white3{
+  height:2000px;
+}
+.bluesky{
+  background-image: url(img/bangkokbg.jpg);
+  background-size:cover;
+  height:575px;
+background-position:center;
+color:white;
+}
+.bluesky p{
+  text-align:left;
+    padding-left:280px;
+}
+.bluesky h2{
+  text-align:left;
+  padding-top:105px;
+  padding-left:280px;
+  font-size:24px;
+  padding-bottom:30px;
+}
+
+.bluesky ul{
+padding-left:320px;
+}
+
+.bluesky li{
+font-weight:600;
+padding-bottom:20px;
+line-height:26px;
+font-size:18px;
+}
+.bluesky h3{
+text-align:left;
+padding-left:280px;
+font-size:22px;
+}
+
+.orange1{
+  height:710px;
+  background-color:orange;
+}
+
+.a258000{
+color:white;
+
+}
+
+.isarasanka{
+  font-size:28px;
+  padding-top:70px;
+}
+
+.isarasanka2{
+  font-weight:600;
+  padding-top:50px;
+}
+
+.isarasanka3{
+  font-size:28px;
+  padding-top:70px;
+  padding-bottom:20px;
+  position:relative;
+  background-color:orange;
+margin: 0 auto;
+bottom: -10px;
+width: 45%;
+}
+
+.specialbox {
+  margin-top:-30px;
+  margin-right:150px;
+  margin-left:150px;
+  padding:40px;
+  border: 2px solid #fff;
+  height:240px;
+
+}
+.float{
+  display:flex;
+  justify-content:center;
+
+
+}
+.white4{
+  background-color:white;
+margin-right:20px;
+  width:250px;
+  height:250px;
+  border-radius:50%;
+}
+.tokuten1{
+  font-size:24px;
+  color:#ebb94d;
+  padding-top:60px;
+  font-weight:300;
+}
+.tokuten2{
+  font-size:14px;
+  line-height:22px;
+  font-weight:600;
+  padding-right:10px;
+  padding-left:10px;
+}
+
+.isara1{
+  background-image: url(img/specialdetail.jpg);
+color:white;
+  background-size:cover;
+  height:530px;
+}
+
+.white5{
+
+  font-size:28px;
+}
+
+.white6{
+  padding-top:35px;
+  font-size:20px;
+}
+
+/*----------------------------鍵括弧の作り方---------------------------*/
+.white5::before, .white5::after{
+  content:"";
+  width:50px;
+  height:50px;
+  position:relative;
+  display: inline-block;
+  box-sizing:border-box;
+}
+
+.white5::before{
+  border-top:4px solid #fff;
+  border-left: 4px solid #fff;
+  top:0;
+  right:50px;
+}
+
+.white5::after{
+  border-right:4px solid #fff;
+  border-bottom: 4px solid #fff;
+  top:25px;
+  left:50px;
+}
+
+/*----------------------------鍵括弧の作り方---------------------------*/
+.white55{
+  padding-top:65px;
+  font-size:28px;
+}
+
+.white7{
+  background-color:white;
+  height:630px;
+}
+
+.sougyousya{
+  font-size:28px;
+  padding-top:70px;
+}
+
+.sougyousya2{
+  font-size:20px;
+  padding-top:50px;
+}
+.sougyousya3{
+}
